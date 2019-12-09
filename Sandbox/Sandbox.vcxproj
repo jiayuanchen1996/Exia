@@ -57,7 +57,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>EX_PLATFORM_WINDOWS; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Exia\src;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,7 +72,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>EX_PLATFORM_WINDOWS; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Exia\src;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +82,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="..\Exia.vcxproj">
+      <Project>{4ae6d7d8-1833-42a4-be14-b537548e7a0e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Exia\Exia.vcxproj">
       <Project>{4ae6d7d8-1833-42a4-be14-b537548e7a0e}</Project>
     </ProjectReference>
   </ItemGroup>
