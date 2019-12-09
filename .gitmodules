@@ -1,0 +1,3 @@
+[submodule "Exia/vendor/spdlog"]
+	path = Exia/vendor/spdlog
+	url = https://github.com/gabime/spdlog

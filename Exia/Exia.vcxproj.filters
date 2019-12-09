@@ -27,9 +27,15 @@
     <ClInclude Include="src\Exia\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Exia\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Exia\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exia\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
